@@ -1,0 +1,37 @@
+h1 {
+font-weight: 400;
+color: #0d2c40;
+font-size: 45px;
+}
+
+p {
+font-family: "Droid Serif", serif;
+line-height: 26px;
+font-size: 18px;
+
+}
+body {
+text-align: center;
+}
+.heads{
+font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.instructions_game
+{
+color: #f15b31;
+font-weight: 600;
+font-size: 18px;
+}
+
+.instructions
+{
+	color: #0d2c40;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
