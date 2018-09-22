@@ -2,36 +2,86 @@ h1 {
 font-weight: 400;
 color: #0d2c40;
 font-size: 45px;
+margin: 0;
+background-color: #f15b31;
+	color: #ffffff;
+	padding: 20px 0;
+	font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
-
+h2{
+	color: #0d2c40;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: "Raleway", sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
 p {
 font-family: "Droid Serif", serif;
 line-height: 26px;
 font-size: 18px;
-
 }
 body {
 text-align: center;
+margin: 0;
 }
-.heads{
+img{
+	margin: 40px 8px;
+}
+
+main{
+	width: 850px;
+	margin: 35px auto ;
+}
+nav{
+	background-color: #00a6b3;
+	padding: 20px 0px;
+}
+nav a{
+	border-bottom: 2px solid transparent;
+}
+nav a:hover{
+	border-color:  white;
+}
+a{
+text-decoration: none;
+font-weight: 600;
+font-size: 18px;
 font-family: "Raleway", sans-serif;
 text-transform: uppercase;
 letter-spacing: 1px;
-}
-.instructions_game
-{
-color: #f15b31;
-font-weight: 600;
-font-size: 18px;
-}
+margin: 0 20px;
+color: #ffffff;
 
-.instructions
-{
-	color: #0d2c40;
-	font-weight: 600;
-	font-size: 20px;
 }
-
-a{
-	text-decoration: none;
+footer{
+	background-color: #0d2c40;
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+footer p{
+	font-family: Raleway;
+}
+.copyright{
+float: left;
+}
+.message{
+float: right;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.name{
+	color: #F15B31;
 }
