@@ -1,6 +1,27 @@
 
 
-var cards=["queen", "queen", "king", ,"king"];
+var cards=[
+{
+rank:"queen",
+suit:"hearts",
+cardImages:"images/queen-of-hearts.png"
+},
+{
+rank:"queen",
+suit:"diamonds",
+cardImages:"images/queen-of-diamonds.png"
+},
+{
+rank:"king",
+suit:"hearts",
+cardImages:"images/king-of-hearts.png"
+},
+{
+rank:"king",
+suit:"diamonds",
+cardImages:"images/king-of-diamonds.png"
+}
+];
 
 var cardsInPlay=[];
 
@@ -18,8 +39,11 @@ if(cardsInPlay[0]===cardsInPlay[1])
 
 var flipCard=function(cardId)
 {
-	console.log("user flipped "+cards[cardId]);
-cardsInPlay.push(cards[cardId]);
+	console.log("user flipped "+cards[cardId].rank);
+	console.log(cards[cardId].cardImages);
+	console.log(cards[cardId].suit);
+
+cardsInPlay.push(cards[cardId].rank);
 
 	if(cardsInPlay.length === 2)
 	{
